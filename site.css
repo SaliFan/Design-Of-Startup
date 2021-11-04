@@ -1,0 +1,407 @@
+body{
+
+    background: url(HomeBackground@1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}   
+
+
+div{
+    color: white;
+}
+
+.up-text{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.text-left{
+    display: flex;
+    margin-left: 229px;
+    font-size: 24px;
+}
+
+.text-right{
+    display: flex;
+    height: 20px;
+    justify-content:flex-end;
+    margin-right: 230px;
+    font-size: 14px;
+    
+}
+
+.text-right a{
+    display: flex;
+    display:inline-block;
+    padding-inline-end: 5px;
+    padding-inline-start: 5px;
+
+
+}
+
+p{
+
+    margin-left: 20px;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 323px;
+}
+
+.center-up{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.center-down{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+
+    
+}
+
+span{
+    padding-left: 10px;
+    width: 100px;
+}
+
+span:hover{
+
+
+    background-color:white;
+    background: #6d6d6d;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+a{
+
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+.Second-block{
+	width: 1920px;
+	height: 1000px;
+
+}
+
+.textup{
+
+    font-size: 40px;
+    padding-top: 400px;
+    padding-left: 855px;
+    color: black;
+
+}
+
+.textdown{
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+hr{
+
+    size: 100px;
+
+}
+
+.services{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.letter-a{
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.clean-header{
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.clean{
+    text-align: center;
+    color: black;
+    width: 500px;
+    height: 98px;
+    font-size: 20px;
+}
+
+.html-logo{
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.rock-header{
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.rock{
+    text-align: center;
+    color: black;
+    width: 500px;
+    height: 98px;
+    font-size: 20px;
+}
+
+.lifebuoy{
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.expert-header{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.expert{
+    text-align: center;
+    color: black;
+    width: 500px;
+    height: 98px;
+    font-size: 20px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+
+
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction:column;
+    color: white;
+    background-color:rgb(163, 21, 21);
+    width: 1920px;
+    height: 150px;
+}
+
+i{
+
+    font-size: 100px;
+
+    
+
+}
+
+
+.font{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 180px;
+
+}
+
+
+.font:hover{
+    
+    background: rgb(163, 21,21); color: #fff;
+
+}
+
+.code{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 180px;
+
+}
+
+.code:hover{
+
+    background: rgb(163, 21,21); color: #fff;
+
+}
+
+.ring{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 180px;
+
+}
+
+.ring:hover{
+
+    background: rgb(163, 21,21); color: #fff;
+
+}
+
+.fab{
+
+    font-size: 35px;
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+
+
+.logofirst{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.logofirst:hover{
+
+    background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+
+}
+
+.logosecond{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.logosecond:hover{
+
+    background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+
+}
+
+.logothird{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    
+
+
+}
+
+.logothird:hover{
+
+    background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+
+}
+
+.logofourth{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.logofourth:hover{
+
+    background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.home-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.home:hover{color:rgb(163, 21, 21)}
+
+.services-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.services:hover{color:rgb(163, 21, 21)}
+
+.about-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.about:hover{color:rgb(163, 21, 21)}
+
+.works-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.works:hover{color:rgb(163, 21, 21)}
+
+.blog-right:hover{background: rgb(255, 255, 255); color:rgb(163, 21, 21)}
+
+.blog:hover{color:rgb(163, 21, 21)}
+
+.clients-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.clientsright:hover{color:rgb(163, 21, 21)}
+
+.contact-right:hover{background: rgb(255, 255, 255); color: rgb(163, 21, 21);
+    font-size: 18px;
+}
+
+.contact:hover{color:rgb(163, 21, 21)}
+
+
+
